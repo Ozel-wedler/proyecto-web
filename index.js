@@ -15,7 +15,7 @@ app.get("/", (req,res)=>{
     })
 })
 
-app.listen(8080,()=>{
+app.listen(80,()=>{
     console.log("Server running");
     sequelize.sync().then(() =>{
         console.log("db running");
